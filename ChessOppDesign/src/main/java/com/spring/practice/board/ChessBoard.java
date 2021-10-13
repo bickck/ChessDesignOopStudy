@@ -8,6 +8,8 @@ import com.spring.practice.User.User;
 public class ChessBoard {
 	
 	private static Vector<Vector<Piece>> board;
+	GameMember gameMeberA;
+	GameMember gameMeberB;
 	
 	private ChessBoard() {}
 	

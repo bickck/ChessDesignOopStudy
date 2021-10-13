@@ -6,6 +6,6 @@ import com.spring.practice.User.User;
 // 보드가 생성되기 전 유저가 있어야 한다.
 public interface CreateChessBoard {
 
-	void createChessBoard(ChooseColor chooseColor);
+	void createChessBoard(GameMember gameMember);
 
 }
