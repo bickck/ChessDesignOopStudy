@@ -90,11 +90,14 @@
 			<version>5.3.10.Final</version>
 		</dependency>
 		<!-- H2 데이터베이스 -->
+		
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<version>1.4.199</version>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.21</version>
 		</dependency>
+
 
 		<!-- @Inject -->
 		<dependency>

@@ -5,9 +5,9 @@ import org.springframework.context.support.GenericApplicationContext;
 
 public class TesttingJava {
 	
-	@Test
-	public void genericApplicationContext()	{
-		GenericApplicationContext ac = new GenericApplicationContext();
-	}
+	//@Test
+	//public void genericApplicationContext()	{
+	//	GenericApplicationContext ac = new GenericApplicationContext();
+	//}
 
 }

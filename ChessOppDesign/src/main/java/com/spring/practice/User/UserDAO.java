@@ -1,7 +1,5 @@
 package com.spring.practice.User;
 
-public enum Color {
+public class UserDAO {
 
-	BLACK,
-	WHITE
 }
