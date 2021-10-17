@@ -4,5 +4,5 @@ import com.spring.practice.User.User;
 
 public interface ChooseColor {
 	
-	public ChooseColor colorChoose(User user1,User user2);
+	public void colorChoose(GameMember GameMember1,GameMember GameMember2);
 }

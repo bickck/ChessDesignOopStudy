@@ -10,7 +10,6 @@ import com.spring.practice.ColorSelect.Color;
 import com.spring.practice.User.User;
 import com.spring.practice.board.ChessBoard;
 import com.spring.practice.board.CreateChessBoard;
-import com.spring.practice.member.Member;
 
 public class ChessGameStarter {
 	// 유저가 입장하면 처음으로 색깔을 고를 수 있도록 한다.
@@ -24,7 +23,7 @@ public class ChessGameStarter {
 	public void gameStarter() {
 		
 		chooseColor.colorChoose(null, null);
-		createChessBoard.createChessBoard(chooseColor);
+		createChessBoard.createChessBoard(null, chooseColor);
 		
 		// 게임 진행
 		while(true) {

@@ -1,6 +1,6 @@
 package com.spring.practice.ChessPiece;
 
-public class ChessMove {
+public interface ChessMove {
 
-	ChessPiece piece;
+	void move();
 }

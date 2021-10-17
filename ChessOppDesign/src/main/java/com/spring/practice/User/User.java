@@ -15,13 +15,13 @@ public class User {
 	@Column(name ="username" ,nullable = true)
 	public String name;
 	
-	public String score;
+	public int score;
 	
 	public User() {
 		
 	}
 	
-	public User(int num, String name, String score) {
+	public User(int num, String name, int score) {
 		super();
 		this.num = num;
 		this.name = name;
@@ -40,10 +40,10 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getScore() {
+	public int getScore() {
 		return score;
 	}
-	public void setScore(String score) {
+	public void setScore(int score) {
 		this.score = score;
 	}
 	

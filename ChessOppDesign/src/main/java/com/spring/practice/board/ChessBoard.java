@@ -3,6 +3,7 @@ package com.spring.practice.board;
 import java.util.Vector;
 
 import com.spring.practice.ChessPiece.Piece;
+import com.spring.practice.ColorSelect.GameMember;
 import com.spring.practice.User.User;
 
 public class ChessBoard {
