@@ -1,6 +1,7 @@
 package com.spring.practice.User;
 
-public interface UserRepository  {
+import org.springframework.data.jpa.repository.JpaRepository;
 
-	
+public interface UserRepository extends JpaRepository<User, Integer> {
+
 }

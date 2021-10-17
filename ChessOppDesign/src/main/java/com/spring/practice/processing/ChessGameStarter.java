@@ -7,6 +7,7 @@ import javax.persistence.Persistence;
 
 import com.spring.practice.ColorSelect.ChooseColor;
 import com.spring.practice.ColorSelect.Color;
+import com.spring.practice.ColorSelect.DefaultUserColorSeleting;
 import com.spring.practice.User.User;
 import com.spring.practice.board.ChessBoard;
 import com.spring.practice.board.CreateChessBoard;
@@ -16,7 +17,7 @@ public class ChessGameStarter {
 	// 1. 보드가 생성이 되면 유저를 탐색한다.
 	// 처음은 유저가 자동으로 생성이 되지만, 나중에 통신을 통해 유저 유무를 확인 할 수 있도록 대비한다.
 	
-	ChooseColor chooseColor;
+	ChooseColor chooseColor = new DefaultUserColorSeleting();
 	CreateChessBoard createChessBoard;
 	
 	
