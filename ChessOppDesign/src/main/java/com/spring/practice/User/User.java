@@ -15,6 +15,7 @@ public class User {
 	@Column(name ="username" ,nullable = true)
 	public String name;
 	
+	@Column(name = "userScore")
 	public int score;
 	
 	public User() {
