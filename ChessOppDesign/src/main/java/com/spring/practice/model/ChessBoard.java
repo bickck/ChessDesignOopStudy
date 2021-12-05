@@ -1,16 +1,14 @@
-package com.spring.practice.board;
+package com.spring.practice.model;
 
 import java.util.Vector;
 
-import com.spring.practice.ChessPiece.Piece;
-import com.spring.practice.ColorSelect.GameMember;
 import com.spring.practice.User.User;
 
 public class ChessBoard {
 	
 	private static Vector<Vector<Piece>> board;
-	GameMember gameMeberA;
-	GameMember gameMeberB;
+	private GameMember gameMeberA;
+	private GameMember gameMeberB;
 	
 	private ChessBoard() {}
 	

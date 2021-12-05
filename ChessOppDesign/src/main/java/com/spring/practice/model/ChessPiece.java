@@ -1,4 +1,4 @@
-package com.spring.practice.ChessPiece;
+package com.spring.practice.model;
 
 public class ChessPiece {
 	
