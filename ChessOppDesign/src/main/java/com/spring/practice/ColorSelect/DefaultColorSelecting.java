@@ -6,16 +6,16 @@ import com.spring.practice.model.GameMember;
 
 // user1이 블랙 user2가 화이트
 
-public class DefaultColorSeleting implements ChooseColor {
+public class DefaultColorSelecting implements ChooseColor {
 
 	private GameMember gameMember;
 	private GameMember anothergameMember;
 
-	public DefaultColorSeleting() {
+	public DefaultColorSelecting() {
 		super();
 	}
 
-	public DefaultColorSeleting(GameMember member, GameMember anotherMember) {
+	public DefaultColorSelecting(GameMember member, GameMember anotherMember) {
 		// TODO Auto-generated constructor stub
 		this.gameMember = member;
 		this.anothergameMember = anotherMember;
@@ -28,14 +28,23 @@ public class DefaultColorSeleting implements ChooseColor {
 			user1.setColor(Color.BLACK);
 			user2.setColor(Color.WHITE);
 		}
-		return new DefaultColorSeleting(user1, user2);
+		return new DefaultColorSelecting(user1, user2);
 	}
 
 	public GameMember getGameMember() {
 		return gameMember;
 	}
 
+	public void setGameMember(GameMember gameMember) {
+		this.gameMember = gameMember;
+	}
+
 	public GameMember getAnothergameMember() {
 		return anothergameMember;
 	}
+
+	public void setAnothergameMember(GameMember anothergameMember) {
+		this.anothergameMember = anothergameMember;
+	}
+
 }
